@@ -1,0 +1,39 @@
+@use '../../../styles/base/settings' as *;
+
+//mobile
+.footerContainer {
+  width: 100%;
+  background: #000000;
+}
+.footerContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 30px;
+  gap: 10px;
+}
+.copyrightText {
+  font-style: 'Kohinoor-Bangla';
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+}
+.termsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.text {
+  font-style: 'Kohinoor-Bangla';
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+}
+.text:hover {
+  text-decoration: underline;
+}
+@media (max-width: $breakpoint-phone) {
+}

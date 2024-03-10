@@ -1,0 +1,11 @@
+[[headers]]
+# Cache JavaScript files for one year
+for = "/*.js"
+[headers.values]
+Cache-Control = "public, max-age=86400"
+
+# Cache font files for one year
+for = "/*.ttf"
+[headers.values]
+Cache-Control = "public, max-age=7776000"
+
