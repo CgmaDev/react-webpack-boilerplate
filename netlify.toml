@@ -2,10 +2,46 @@
 # Cache JavaScript files for one year
 for = "/*.js"
 [headers.values]
-Cache-Control = "public, max-age=86400"
+Cache-Control = "public, max-age=31536000"
 
+[[headers]]
 # Cache font files for one year
 for = "/*.ttf"
 [headers.values]
-Cache-Control = "public, max-age=7776000"
+Cache-Control = "public, max-age=31536000"
 
+[[headers]]
+# Cache font files for one year
+for = "/*.ico"
+[headers.values]
+Cache-Control = "public, max-age=31536000"
+
+[[headers]]
+# Cache font files for one year
+for = "/*.html"
+[headers.values]
+Cache-Control = "public, max-age=31536000"
+
+[[headers]]
+# Cache font files for one year
+for = "/*.png"
+[headers.values]
+Cache-Control = "public, max-age=31536000"
+
+[[headers]]
+# Cache font files for one year
+for = "/*.svg"
+[headers.values]
+Cache-Control = "public, max-age=31536000"
+
+[[headers]]
+# Cache font files for one year
+for = "/*.jpg"
+[headers.values]
+Cache-Control = "public, max-age=31536000"
+
+[[headers]]
+# Cache font files for one year
+for = "/*.jpeg"
+[headers.values]
+Cache-Control = "public, max-age=31536000"
